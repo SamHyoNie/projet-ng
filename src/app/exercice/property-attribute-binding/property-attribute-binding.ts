@@ -15,6 +15,7 @@ interface Person {
 })
 export class PropertyAttributeBinding {
   // 🟦 Variables pour Property Binding
+  imageUrl:string = "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp";
 
   person: Person = {
     name: 'Steven Cigale',
